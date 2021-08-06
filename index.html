@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Beast Factory</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <img src="/img/logo1.png" alt="gym logo" id="logo" width="300px" />
+        <div style="font-family: algerian">The Beast Factory</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="/index.html" class="active">Home</a></li>
+          <li><a href="/about.html">About us</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="program.html">Programss</a></li>
+          <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn"><a href="/login.html" target="_blank">Login</a></button>
+        <!-- <button class="btn"><a href="#" target="_blank">Sign up</a></button> -->
+      </div>
+    </header>
+    <div class="icons">
+      <div class="insta"><a href="http://" target="_blank" rel="noopener noreferrer"><img src="/img/insta.png" alt="instagram" width="40px"></a></div>
+      <div class="facebook"><a href="http://" target="_blank" rel="noopener noreferrer"><img src="/img/facebook-logo-494.png" alt="facebook" width="40px"></a></div>
+      <div class="youtube"><a href="http://" target="_blank" rel="noopener noreferrer"><img src="/img/youtube-logo-png-2073.png" alt="youtube" width="55px"></a></div>
+  </div>
+
+    <div class="container">
+
+      <h1>Join the best Gym in Mumbai now!!!</h1>
+        <form action="backend.php">
+          <div class="form-group">
+            <div>
+              <input type="text" name="name" placeholder="Enter your Name" />
+            </div>
+          <div>
+          <input type="date" name="age" placeholder="Enter your Age" />
+          </div>
+          <div>
+            <select name="gender" id="gender"  >
+              <option value="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select your Gender</option>
+              <option value="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Male</option>
+              <option value="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Female</option>
+              <option value="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other</option>
+            </select>
+          </div>
+          <div>
+            <input type="email" name="email" id="" placeholder="Enter your Email">
+          </div>
+          <div>
+            <input type="tel" name="mobile" id="" placeholder="Enter your Phone Number" maxlength="10">
+          </div>
+          <!-- <div>
+          
+            <textarea name="Address" id="address" cols="30" rows="3" placeholder="Enter your Address"></textarea>
+          </div> -->
+          <div>
+            <button class="btn">Register</button>
+          </div>
+      </form>
+    </div>
+    <div class="img">
+      <img src="/img/home.png" alt="">
+    </div>
+  </body>
+</html>
